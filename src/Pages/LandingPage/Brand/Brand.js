@@ -18,9 +18,7 @@ const Brand = () => {
       <div className="mx-auto mt-5">
         <div className="grid grid-cols-2 md:grid-cols-4 mx-5 md:mx-20 gap-5 ">
           {brands.map((brand, i) => (
-            <div className="">
-              <img key={i} src={brand} alt="brands" style={{ width: "70%" }} />
-            </div>
+            <img key={i} src={brand} alt="brands" style={{ width: "70%" }} />
           ))}
         </div>
       </div>

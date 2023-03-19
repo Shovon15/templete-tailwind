@@ -7,7 +7,7 @@ import { GrCheckmark } from "react-icons/gr";
 
 const Banner = () => {
   return (
-    <div className="pt-24">
+    <div className="">
       <SectionHeading title="Empower your digital marketing" />
       <SectionTitle title="The AI-powered platform to optimize and grow your ecommerce business on every single store provider." />
       <div className="flex flex-col md:flex-row justify-center items-center gap-2">

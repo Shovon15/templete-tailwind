@@ -1,10 +1,10 @@
 import React from "react";
 
-const PrimaryButton = ({ children }) => {
+const PrimaryButton = ({ children, className }) => {
   return (
     <button
-      className="bg-indigo-600 text-white py-2 px-6 rounded mx-2 hover:bg-indigo-400 
-  duration-500"
+      className={`${className} bg-indigo-600 text-white py-2 px-6 rounded mx-2 hover:bg-indigo-400 
+  duration-500`}
     >
       {children}
     </button>

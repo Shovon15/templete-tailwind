@@ -1,8 +1,10 @@
 import React from "react";
 
-const SectionHeading = ({ title }) => {
+const SectionHeading = ({ title, className }) => {
   return (
-    <p className="text-center font-bold text-4xl p-2 text-indigo-700">
+    <p
+      className={`${className} text-center font-bold text-4xl p-2 text-indigo-700`}
+    >
       {title}
     </p>
   );
