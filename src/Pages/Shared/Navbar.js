@@ -47,14 +47,14 @@ const Navbar = () => {
 
         <ul
           className={`md:flex   md:items-center bg-slate-100 md:bg-transparent md:dark:bg-transparent dark:bg-slate-700 md:pb-0 pb-12 absolute md:static  md:z-auto z-[-1] left-0 w-full md:w-auto md:pl-0 pl-9 transition-all duration-500 ease-in ${
-            open ? "top-[77px]" : "top-[-490px]"
+            open ? "top-[76px]" : "top-[-490px]"
           }`}
         >
           <NavLinks />
 
-          <div className="md:hidden flex justify-around">{items}</div>
+          <div className="md:hidden flex justify-around mt-2">{items}</div>
         </ul>
-        <div className="hidden md:flex">{items}</div>
+        <div className="hidden md:flex ">{items}</div>
 
         <div
           onClick={() => setOpen(!open)}

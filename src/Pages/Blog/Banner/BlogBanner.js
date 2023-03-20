@@ -19,7 +19,7 @@ const BlogBanner = () => {
           type="email"
           name="email"
         />
-        <PrimaryButton className="mx-2 py-4 " typo="submit">
+        <PrimaryButton className="px-2 py-4 " typo="submit">
           Subscribe
         </PrimaryButton>
       </div>

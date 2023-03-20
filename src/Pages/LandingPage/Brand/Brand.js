@@ -18,7 +18,14 @@ const Brand = () => {
       <div className="mx-auto mt-5">
         <div className="grid grid-cols-2 md:grid-cols-4 mx-5 md:mx-20 gap-5 ">
           {brands.map((brand, i) => (
-            <img key={i} src={brand} alt="brands" style={{ width: "70%" }} />
+            <div className="mx-auto dark:bg-white rounded-md px-8 py-1">
+              <img
+                className="w-[5rem] md:w-28"
+                key={i}
+                src={brand}
+                alt="brands"
+              />
+            </div>
           ))}
         </div>
       </div>
@@ -27,3 +34,4 @@ const Brand = () => {
 };
 
 export default Brand;
+// style={{ width: "70%" }}

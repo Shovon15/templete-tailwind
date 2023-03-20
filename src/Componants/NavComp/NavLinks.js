@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { links } from "./MyLinks";
 
-const NavLinks = ({ items }) => {
+const NavLinks = () => {
   const [heading, setHeading] = useState("");
   const [subHeading, setSubHeading] = useState("");
   return (
@@ -109,7 +109,6 @@ const NavLinks = ({ items }) => {
                 </div>
               </div>
             ))}
-            <button>button</button>
           </div>
         </div>
       ))}
