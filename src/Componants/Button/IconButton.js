@@ -3,7 +3,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const IconButton = ({ children, className }) => {
   return (
     <button
-      className={`${className} flex items-center justify-center bg-inherite text-indigo-700 font-bold py-2 px-2  rounded  hover:bg-indigo-400 
+      className={`${className} flex items-center justify-center bg-inherite text-indigo-700 dark:text-white font-bold py-2 px-2  rounded  hover:bg-indigo-400 
       duration-500`}
     >
       {children}

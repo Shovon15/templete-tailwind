@@ -24,7 +24,7 @@ const Optimization = () => {
   ];
   return (
     <div>
-      <SectionTitle title="The industry-leading Advertising Optimization solutio" />
+      <SectionTitle colored="The industry-leading Advertising Optimization solutio" />
       <SectionHeading title="Build optimize, and analyze your advertising" />
       <div className="px-5 py-10 md:px-32 ">
         {theme === "light" ? (

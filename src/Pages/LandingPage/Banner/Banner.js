@@ -24,7 +24,7 @@ const Banner = () => {
           Reach customer
         </div>
       </div>
-      <div className="flex justify-center items-center my-5">
+      <div className="flex justify-center items-center my-5 gap-2">
         <PrimaryButton>Free Trial</PrimaryButton>
         <PrimaryButton>Learn More</PrimaryButton>
       </div>
